@@ -1,4 +1,4 @@
-Node GoDelve
+Delvejs
 ========================
 
 Provides a Node.js interface with a Delve debugger server using it's JSON-RPC API.
