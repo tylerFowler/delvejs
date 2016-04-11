@@ -1,5 +1,5 @@
 {
-  "name": "node-godelve",
+  "name": "delvejs",
   "version": "0.0.0",
   "author": "Tyler Fowler <tylerfowler.1337@gmail.com>",
   "description": "Node client for a Delve server for debugging Go code",
