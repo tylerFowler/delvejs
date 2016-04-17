@@ -12,7 +12,7 @@ $> dlv debug --headless=true --listen="localhost:8181"
 
 To connect from an application:
 ```js
-const Delve = require('delve');
+const Delve      = require('delve');
 const DelveError = require('delve').Error;
 
 // initialize a new Delve client
