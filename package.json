@@ -10,7 +10,8 @@
     "url": "git+https://github.com/tylerfowler/delvejs.git"
   },
   "scripts": {
-    "build": "gulp default"
+    "build": "gulp default",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "golang",
