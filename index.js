@@ -1,1 +1,1 @@
-const Delve = module.exports = exports = require('./lib/delve');
+module.exports = exports = require('./lib/delve');
