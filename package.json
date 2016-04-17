@@ -16,6 +16,7 @@
     "debugger"
   ],
   "dependencies": {
+    "bluebird": "^3.3.5",
     "json-rpc2": "^1.0.2"
   },
   "devDependencies": {
