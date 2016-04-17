@@ -1,7 +1,7 @@
 Delvejs
 ========================
 
-Provides a Node.js interface with a Delve debugger server using it's JSON-RPC API. Note that this library does *not* handle creating a delve process and managing it, only connecting to an existing server.
+Provides a Node.js interface with a Delve debugger server using it's JSON-RPC API. Note that this library does *not* handle creating a delve process and managing it, only connecting to an existing server. Though this means that this can be used to attach to debug sessions over a network.
 
 ## Usage
 
