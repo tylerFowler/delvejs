@@ -5,6 +5,10 @@
   "description": "Node client for a Delve server for debugging Go code",
   "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerfowler/delvejs.git"
+  },
   "scripts": {
     "build": "gulp default"
   },
