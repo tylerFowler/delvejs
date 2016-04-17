@@ -1,1 +1,2 @@
-module.exports = exports = require('./lib/delve');
+module.exports = require('./lib/delve');
+exports.Error = require('./lib/errors');
