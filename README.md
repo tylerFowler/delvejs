@@ -31,7 +31,10 @@ delveClient.establishSocketConn()
 .then(() => delveClient.detach(true))
 
 // catch any Delve errors
-.catch(DelveError.DelveServerError, err => console.error(err));
+.catch(DelveError.DelveServerError, err => console.error(err))
+
+// close the connection to the server
+.finally(() => delveClient.endSession());
 ```
 
 To see the full list of commands look at the source in [delve.js](./lib/delve.js). Note that with the exception of functions that return breakpoints many methods will return the data structures returned by the Delve JSON-RPC API verbatim, for a full list of types see the Delve API type definitions [here](https://github.com/derekparker/delve/blob/master/service/api/types.go).
