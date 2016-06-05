@@ -1,6 +1,6 @@
 {
   "name": "delvejs",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "author": "Tyler Fowler <tylerfowler.1337@gmail.com>",
   "description": "Node client for a Delve server for debugging Go code",
   "license": "MIT",
